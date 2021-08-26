@@ -140,3 +140,5 @@ __bash_prompt
 export PROMPT_DIRTRIM=4
 export NVS_HOME="$HOME/.nvs"
 [ -s "$NVS_HOME/nvs.sh" ] && . "$NVS_HOME/nvs.sh"
+
+export PS1="\[\e[32m\]codespaces\[\e[m\]:\[\e[35m\]* GitHub Codespaces *:\[\e[34m\]\w\[\e[m\]\\$ "
