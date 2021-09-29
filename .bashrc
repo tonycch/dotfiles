@@ -142,4 +142,4 @@ export NVS_HOME="$HOME/.nvs"
 [ -s "$NVS_HOME/nvs.sh" ] && . "$NVS_HOME/nvs.sh"
 
 export PS1="\[\e[32m\]GitHub Codespaces\[\e[m\] :\[\e[35m\] tonycch \[\e[00m\]@\[\e[34m\] \w \[\e[m\]\\$ "
-sudo apt-get install -y telnet
+alias greet='echo hello world!'
